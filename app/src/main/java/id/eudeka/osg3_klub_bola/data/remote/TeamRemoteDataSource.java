@@ -1,8 +1,8 @@
-package com.educa62.osg3_klub_bola.data.remote;
+package id.eudeka.osg3_klub_bola.data.remote;
 
 
-import com.educa62.osg3_klub_bola.data.TeamDataSource;
-import com.educa62.osg3_klub_bola.model.Team;
+import id.eudeka.osg3_klub_bola.data.TeamDataSource;
+import id.eudeka.osg3_klub_bola.model.Team;
 
 
 import retrofit2.Call;

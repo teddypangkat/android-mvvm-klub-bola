@@ -6,7 +6,7 @@
 
         <variable
             name="teamDetailVM"
-            type="com.educa62.osg3_klub_bola.model.TeamDetail" />
+            type="id.eudeka.osg3_klub_bola.model.TeamDetail" />
     </data>
 
     <LinearLayout xmlns:app="http://schemas.android.com/tools"
@@ -38,10 +38,10 @@
 
         </LinearLayout>
 
-        <com.educa62.osg3_klub_bola.widget.RatingView
+        <id.eudeka.osg3_klub_bola.widget.RatingView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:numStars="5"
-            app:rating="2"></com.educa62.osg3_klub_bola.widget.RatingView>
+            app:rating="2"></id.eudeka.osg3_klub_bola.widget.RatingView>
     </LinearLayout>
 </layout>

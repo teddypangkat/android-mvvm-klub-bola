@@ -1,14 +1,11 @@
-package com.educa62.osg3_klub_bola.viewmodel;
+package id.eudeka.osg3_klub_bola.viewmodel;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
-import android.widget.EditText;
-import android.widget.TextView;
 
-import com.educa62.osg3_klub_bola.data.TeamDataSource;
-import com.educa62.osg3_klub_bola.data.TeamRepository;
-import com.educa62.osg3_klub_bola.model.Team;
-import com.educa62.osg3_klub_bola.navigator.TeamNavigator;
+import id.eudeka.osg3_klub_bola.data.TeamDataSource;
+import id.eudeka.osg3_klub_bola.data.TeamRepository;
+import id.eudeka.osg3_klub_bola.model.Team;
+import id.eudeka.osg3_klub_bola.navigator.TeamNavigator;
 
 public class TeamViewModel {
 

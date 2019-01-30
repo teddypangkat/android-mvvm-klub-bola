@@ -1,4 +1,4 @@
-package com.educa62.osg3_klub_bola.data.remote;
+package id.eudeka.osg3_klub_bola.data.remote;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

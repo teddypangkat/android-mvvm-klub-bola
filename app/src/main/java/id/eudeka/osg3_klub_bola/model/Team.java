@@ -1,10 +1,4 @@
-package com.educa62.osg3_klub_bola.model;
-
-import android.arch.persistence.room.ColumnInfo;
-import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.PrimaryKey;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+package id.eudeka.osg3_klub_bola.model;
 
 import com.google.gson.annotations.SerializedName;
 

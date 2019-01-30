@@ -7,14 +7,14 @@
 
         <variable
             name="vm"
-            type="com.educa62.osg3_klub_bola.viewmodel.TeamViewModel" />
+            type="id.eudeka.osg3_klub_bola.viewmodel.TeamViewModel" />
     </data>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".view.MainActivity">
+        tools:context="id.eudeka.osg3_klub_bola.view.MainActivity">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recyclerTeamBola"

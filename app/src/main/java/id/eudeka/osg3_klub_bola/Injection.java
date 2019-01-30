@@ -1,10 +1,10 @@
-package com.educa62.osg3_klub_bola;
+package id.eudeka.osg3_klub_bola;
 
 import android.content.Context;
 
-import com.educa62.osg3_klub_bola.data.TeamRepository;
-import com.educa62.osg3_klub_bola.data.local.TeamLocalDataSource;
-import com.educa62.osg3_klub_bola.data.remote.TeamRemoteDataSource;
+import id.eudeka.osg3_klub_bola.data.TeamRepository;
+import id.eudeka.osg3_klub_bola.data.local.TeamLocalDataSource;
+import id.eudeka.osg3_klub_bola.data.remote.TeamRemoteDataSource;
 
 public class Injection {
     public static TeamRepository provideTeamRepository(Context context) {

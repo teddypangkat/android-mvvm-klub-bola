@@ -1,6 +1,6 @@
-package com.educa62.osg3_klub_bola.data;
+package id.eudeka.osg3_klub_bola.data;
 
-import com.educa62.osg3_klub_bola.model.Team;
+import id.eudeka.osg3_klub_bola.model.Team;
 
 public interface TeamDataSource {
 

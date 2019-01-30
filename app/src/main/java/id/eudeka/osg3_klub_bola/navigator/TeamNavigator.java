@@ -1,7 +1,6 @@
-package com.educa62.osg3_klub_bola.navigator;
+package id.eudeka.osg3_klub_bola.navigator;
 
-import com.educa62.osg3_klub_bola.model.Team;
-import com.educa62.osg3_klub_bola.model.TeamDetail;
+import id.eudeka.osg3_klub_bola.model.TeamDetail;
 
 import java.util.List;
 

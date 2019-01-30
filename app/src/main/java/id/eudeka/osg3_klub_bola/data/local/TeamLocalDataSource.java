@@ -1,10 +1,10 @@
-package com.educa62.osg3_klub_bola.data.local;
+package id.eudeka.osg3_klub_bola.data.local;
 
 import android.content.Context;
 
-import com.educa62.osg3_klub_bola.data.TeamDataSource;
-import com.educa62.osg3_klub_bola.model.Team;
-import com.educa62.osg3_klub_bola.model.TeamDetail;
+import id.eudeka.osg3_klub_bola.data.TeamDataSource;
+import id.eudeka.osg3_klub_bola.model.Team;
+import id.eudeka.osg3_klub_bola.model.TeamDetail;
 
 import java.util.List;
 

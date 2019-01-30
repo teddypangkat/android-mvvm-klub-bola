@@ -1,13 +1,11 @@
-package com.educa62.osg3_klub_bola.data.local;
+package id.eudeka.osg3_klub_bola.data.local;
 
 
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Insert;
-import android.arch.persistence.room.OnConflictStrategy;
 import android.arch.persistence.room.Query;
 
-import com.educa62.osg3_klub_bola.model.Team;
-import com.educa62.osg3_klub_bola.model.TeamDetail;
+import id.eudeka.osg3_klub_bola.model.TeamDetail;
 
 import java.util.List;
 

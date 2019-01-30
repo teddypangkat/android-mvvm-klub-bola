@@ -1,4 +1,4 @@
-package com.educa62.osg3_klub_bola.data.local;
+package id.eudeka.osg3_klub_bola.data.local;
 
 
 import android.arch.persistence.room.Database;
@@ -6,8 +6,7 @@ import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
-import com.educa62.osg3_klub_bola.model.Team;
-import com.educa62.osg3_klub_bola.model.TeamDetail;
+import id.eudeka.osg3_klub_bola.model.TeamDetail;
 
 @Database(entities = {TeamDetail.class}, version = 1)
 public abstract class TeamDataBase extends RoomDatabase {

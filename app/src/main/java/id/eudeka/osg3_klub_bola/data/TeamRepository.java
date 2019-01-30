@@ -1,12 +1,10 @@
-package com.educa62.osg3_klub_bola.data;
+package id.eudeka.osg3_klub_bola.data;
 
 import android.support.annotation.Nullable;
-import android.util.Log;
 
-import com.educa62.osg3_klub_bola.data.local.TeamLocalDataSource;
-import com.educa62.osg3_klub_bola.data.remote.TeamRemoteDataSource;
-import com.educa62.osg3_klub_bola.model.Team;
-import com.educa62.osg3_klub_bola.model.TeamDetail;
+import id.eudeka.osg3_klub_bola.data.local.TeamLocalDataSource;
+import id.eudeka.osg3_klub_bola.data.remote.TeamRemoteDataSource;
+import id.eudeka.osg3_klub_bola.model.Team;
 
 public class TeamRepository implements TeamDataSource {
 

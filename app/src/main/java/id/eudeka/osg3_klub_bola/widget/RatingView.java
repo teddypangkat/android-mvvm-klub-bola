@@ -1,4 +1,4 @@
-package com.educa62.osg3_klub_bola.widget;
+package id.eudeka.osg3_klub_bola.widget;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.educa62.osg3_klub_bola.adapter;
+package id.eudeka.osg3_klub_bola.adapter;
 
 import android.databinding.DataBindingUtil;
 import android.support.annotation.NonNull;
@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import com.educa62.osg3_klub_bola.R;
 import com.educa62.osg3_klub_bola.databinding.ItemRowBinding;
-import com.educa62.osg3_klub_bola.model.TeamDetail;
+import id.eudeka.osg3_klub_bola.model.TeamDetail;
 
 import java.util.List;
 

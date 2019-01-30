@@ -1,4 +1,4 @@
-package com.educa62.osg3_klub_bola.view;
+package id.eudeka.osg3_klub_bola.view;
 
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
@@ -7,16 +7,15 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.widget.EditText;
 
-import com.educa62.osg3_klub_bola.Injection;
+import id.eudeka.osg3_klub_bola.Injection;
 import com.educa62.osg3_klub_bola.R;
-import com.educa62.osg3_klub_bola.adapter.TeamBolaAdapter;
+import id.eudeka.osg3_klub_bola.adapter.TeamBolaAdapter;
 import com.educa62.osg3_klub_bola.databinding.ActivityMainBinding;
-import com.educa62.osg3_klub_bola.model.Team;
-import com.educa62.osg3_klub_bola.model.TeamDetail;
-import com.educa62.osg3_klub_bola.navigator.TeamNavigator;
-import com.educa62.osg3_klub_bola.viewmodel.TeamViewModel;
+
+import id.eudeka.osg3_klub_bola.model.TeamDetail;
+import id.eudeka.osg3_klub_bola.navigator.TeamNavigator;
+import id.eudeka.osg3_klub_bola.viewmodel.TeamViewModel;
 
 import java.util.ArrayList;
 import java.util.List;
