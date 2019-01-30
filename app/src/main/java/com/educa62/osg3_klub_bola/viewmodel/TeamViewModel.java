@@ -27,7 +27,6 @@ public class TeamViewModel {
     }
 
     public void getListTeam() {
-
         teamRepository.getListTeams(new TeamDataSource.GetTeamsCallback() {
             @Override
             public void onTeamLoaded(Team data) {
