@@ -9,39 +9,55 @@
             type="id.eudeka.osg3_klub_bola.model.TeamDetail" />
     </data>
 
-    <LinearLayout xmlns:app="http://schemas.android.com/tools"
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
 
-        <LinearLayout
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:gravity="center|left"
-            android:orientation="horizontal">
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardElevation="4dp">
 
-            <ImageView
-                android:id="@+id/item_club_img"
-                android:layout_width="90dp"
-                android:layout_height="90dp"
-                bind:teamLogo="@{teamDetailVM.teamLogo}" />
-
-            <TextView
-                android:id="@+id/txt_item_club_name"
+            <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:text="@{teamDetailVM.teamName}"
-                android:textSize="18sp" />
+                android:layout_height="wrap_content">
 
+                <ImageView
+                    android:id="@+id/item_club_img"
+                    android:layout_width="90dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="90dp"
+                    bind:teamLogo="@{teamDetailVM.teamLogo}" />
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/txt_item_club_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/item_club_img"
+                    android:text="@{teamDetailVM.teamName}"
+                    android:textSize="18sp" />
 
-        <id.eudeka.osg3_klub_bola.widget.RatingView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:numStars="5"
-            app:rating="2"></id.eudeka.osg3_klub_bola.widget.RatingView>
+                <id.eudeka.osg3_klub_bola.widget.RatingView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/item_club_img"
+                    android:layout_below="@+id/txt_item_club_name"
+                    android:layout_height="wrap_content"
+                    app:numStars="5"
+                    android:layout_gravity="center"
+                    app:rating="2"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
     </LinearLayout>
 </layout>

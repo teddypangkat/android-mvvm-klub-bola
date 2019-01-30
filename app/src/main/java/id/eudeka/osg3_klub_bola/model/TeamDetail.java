@@ -12,8 +12,10 @@ import id.eudeka.osg3_klub_bola.BR;
 import com.google.gson.annotations.SerializedName;
 import com.squareup.picasso.Picasso;
 
+import java.io.Serializable;
+
 @Entity(tableName = "team")
-public class TeamDetail extends BaseObservable {
+public class TeamDetail extends BaseObservable implements Serializable {
 
     @PrimaryKey(autoGenerate = true)
     public int mId;
@@ -28,6 +30,10 @@ public class TeamDetail extends BaseObservable {
     @SerializedName("strTeamBadge")
     public String teamLogo;
 
+    @ColumnInfo(name = "team_description")
+    @SerializedName("strStadiumDescription")
+    public String teamDescription;
+
 
     public int getmId() {
         return mId;
@@ -41,6 +47,10 @@ public class TeamDetail extends BaseObservable {
 
     public String getTeamLogo() {
         return teamLogo;
+    }
+
+    public String getTeamDescription() {
+        return teamDescription;
     }
 
     public void setTeamName(String teamName) {

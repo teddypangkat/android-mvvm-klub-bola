@@ -14,8 +14,6 @@ import android.widget.LinearLayout;
 
 import id.eudeka.osg3_klub_bola.R;
 
-import static com.bumptech.glide.Glide.init;
-
 public class RatingView extends LinearLayout {
 
     private boolean ratingOngoing = false;

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "id.eudeka.osg3_klub_bola"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -40,7 +40,5 @@ dependencies {
     implementation 'com.android.support:design:28.0.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.facebook.stetho:stetho:1.5.0'
-    implementation 'com.github.bumptech.glide:glide:4.8.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
     implementation 'com.android.support:design:28.0.0'
 }
