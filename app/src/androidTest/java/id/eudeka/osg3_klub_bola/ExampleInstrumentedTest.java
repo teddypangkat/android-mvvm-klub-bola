@@ -1,4 +1,4 @@
-package com.educa62.osg3_klub_bola;
+package id.eudeka.osg3_klub_bola;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.educa62.osg3_klub_bola", appContext.getPackageName());
+        assertEquals("id.eudeka.osg3_klub_bola", appContext.getPackageName());
     }
 }

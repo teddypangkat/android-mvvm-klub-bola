@@ -12,7 +12,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 
-import com.educa62.osg3_klub_bola.R;
+import id.eudeka.osg3_klub_bola.R;
 
 import static com.bumptech.glide.Glide.init;
 

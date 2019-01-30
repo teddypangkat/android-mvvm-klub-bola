@@ -9,9 +9,9 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
 import id.eudeka.osg3_klub_bola.Injection;
-import com.educa62.osg3_klub_bola.R;
+import id.eudeka.osg3_klub_bola.R;
 import id.eudeka.osg3_klub_bola.adapter.TeamBolaAdapter;
-import com.educa62.osg3_klub_bola.databinding.ActivityMainBinding;
+import id.eudeka.osg3_klub_bola.databinding.ActivityMainBinding;
 
 import id.eudeka.osg3_klub_bola.model.TeamDetail;
 import id.eudeka.osg3_klub_bola.navigator.TeamNavigator;

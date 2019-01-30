@@ -1,4 +1,4 @@
-package com.educa62.osg3_klub_bola;
+package id.eudeka.osg3_klub_bola;
 
 import org.junit.Test;
 

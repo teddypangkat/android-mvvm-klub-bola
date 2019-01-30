@@ -8,7 +8,7 @@ import android.databinding.Bindable;
 import android.databinding.BindingAdapter;
 import android.widget.ImageView;
 
-import com.educa62.osg3_klub_bola.BR;
+import id.eudeka.osg3_klub_bola.BR;
 import com.google.gson.annotations.SerializedName;
 import com.squareup.picasso.Picasso;
 

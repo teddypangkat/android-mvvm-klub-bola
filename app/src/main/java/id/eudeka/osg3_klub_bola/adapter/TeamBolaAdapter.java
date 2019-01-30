@@ -5,8 +5,8 @@ import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
-import com.educa62.osg3_klub_bola.R;
-import com.educa62.osg3_klub_bola.databinding.ItemRowBinding;
+import id.eudeka.osg3_klub_bola.R;
+import id.eudeka.osg3_klub_bola.databinding.ItemRowBinding;
 import id.eudeka.osg3_klub_bola.model.TeamDetail;
 
 import java.util.List;
