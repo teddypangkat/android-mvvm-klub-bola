@@ -13,7 +13,7 @@ import com.squareup.picasso.Callback;
 import id.eudeka.osg3_klub_bola.R;
 import id.eudeka.osg3_klub_bola.model.TeamDetail;
 
-public class DetailClub extends AppCompatActivity {
+public class DetailTeam extends AppCompatActivity {
 
     private ImageView imageClub;
     private TextView textViewName, textViewDescription;
@@ -24,7 +24,7 @@ public class DetailClub extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_club);
+        setContentView(R.layout.activity_detail_team);
         supportPostponeEnterTransition();
 
         extras = getIntent().getExtras();
@@ -38,7 +38,7 @@ public class DetailClub extends AppCompatActivity {
 
         //untuk membuat tombol back button pada toolbar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Detail Club");
+        getSupportActionBar().setTitle("Detail Team");
 
     }
 

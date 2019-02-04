@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements TeamNavigator, Cl
 
     @Override
     public void onClubItemClick(TeamDetail clubItem, ImageView shareImageView) {
-        Intent intent = new Intent(this, DetailClub.class);
+        Intent intent = new Intent(this, DetailTeam.class);
         intent.putExtra(KEY_TEAM_DETAIL, clubItem);
         intent.putExtra(KEY_TEAM_DETAIL_TRANSITION_NAME, ViewCompat.getTransitionName(shareImageView));
 
